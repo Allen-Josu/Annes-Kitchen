@@ -15,7 +15,7 @@ html {
   font-family: "Ysabeau Office", sans-serif;
 }
 
-.logo__title {
+.logo {
   font-family: "Dancing Script", cursive;
   display: flex;
   justify-content: center;
@@ -23,19 +23,19 @@ html {
   font-size: 25px;
 }
 
-.nav {
+.navbar {
   display: flex;
   justify-content: center;
 }
 
-.nav a {
+.navbar a {
   text-decoration: none;
   color: black;
   margin: 20px 15px;
   font-size: 20px;
 }
 
-.nav a:hover {
+.navbar a:hover {
   color: #b0bcae;
 }
 
@@ -60,79 +60,26 @@ hr {
   margin-top: 5%;
 }
 
-.intro {
+.informations {
   display: flex;
   justify-content: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
-.intro__content {
+.information {
   width: 65%;
   text-align: center;
 }
 
-.intro__cont {
+.information__content {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-.intro__head {
+.information__headings {
   font-size: 20px;
   margin-bottom: 20px;
-}
-
-.intro__link {
-  margin-top: 4rem;
-}
-
-.intro__link1 {
-  border: 2px solid black;
-  text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 26px;
-  color: black;
-  padding: 20px 50px;
-}
-
-.intro__link1:hover {
-  color: white;
-  background: black;
-}
-
-.carrerlink {
-  margin-top: 4rem;
-}
-
-.carrerlink a {
-  text-decoration: none;
-  font-size: 26px;
-  font-family: "Times New Roman", Times, serif;
-  color: black;
-  padding: 20px 50px;
-}
-
-.carrerlink1 {
-  border: 2px solid black;
-}
-
-.carrerlink1:hover {
-  color: white;
-  background: black;
-}
-
-.motto {
-  margin-top: 2%;
-}
-
-.motto__logo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-}
-
-.motto__heading {
-  text-align: center;
 }
 
 .txt__link {
@@ -140,25 +87,78 @@ hr {
   text-decoration: underline;
 }
 
-.location {
+.orders {
+  margin-top: 4rem;
+}
+
+.order__link {
+  border: 2px solid black;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  color: black;
+  padding: 20px 50px;
+}
+
+.order__link:hover {
+  color: white;
+  background: black;
+}
+
+.carrer {
+  margin-top: 4rem;
+}
+
+.carrer a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  padding: 20px 50px;
+}
+
+.carrer__link {
+  border: 2px solid black;
+}
+
+.carrer__link:hover {
+  color: white;
+  background: black;
+}
+
+.save__planet {
+  margin-top: 2%;
+}
+
+.save__planet__logo {
   display: flex;
   justify-content: center;
+  margin-bottom: 2%;
+}
+
+.save__planet__content {
+  text-align: center;
+}
+
+.details__container {
+  display: flex;
+  justify-content: space-around;
   margin-top: 5%;
 }
 
-.location__address {
+.details {
   margin-left: 5%;
   width: 25%;
 }
 
-.location__heading {
+.details__heading {
   text-align: center;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 7px;
 }
 
-.location__content {
+.details__content {
   margin-top: 7%;
   text-align: center;
 }
@@ -261,7 +261,7 @@ hr {
   margin-left: 2rem;
 }
 
-.scroll_top{
+.scroll_top {
   display: flex;
   justify-content: end;
 }
@@ -271,7 +271,3 @@ hr {
   margin-bottom: 5rem;
   color: black;
 }
-
-
-
-
