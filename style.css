@@ -30,27 +30,15 @@ hr {
     margin-top: 5%;
 }
 
-.informations {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.information {
-    width: 65%;
-    text-align: center;
-}
-
-.information p {
+#information p {
     font-size: 18px;
-    margin-bottom: 20px;
 }
 
-.information h3 {
+#information h3 {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 .txt__link {
