@@ -54,28 +54,10 @@ hr {
     color: black;
 }
 
-.order:hover {
-    color: white;
-    background: black;
-}
-
+.order:hover,
 .career:hover {
     color: white;
     background: black;
-}
-
-.save__planet {
-    margin-top: 2%;
-}
-
-.save__planet__logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2%;
-}
-
-.save__planet__content {
-    text-align: center;
 }
 
 .details__container {
